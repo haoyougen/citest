@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run: echo "A first hello"
       - run: sleep 15
-  twi:
+  two:
     docker:
       - image: circleci/ruby:2.4.1
     steps:
